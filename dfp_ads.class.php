@@ -47,7 +47,7 @@ class DFPads
 		//this doesn't work with caching (;_;)
 		self::$view_type = ($detect->isMobile()) ? 'mobile' : 'desktop';
 		$agent = $detect->getHttpHeader('User-Agent');
-		echo "<!-- dfp agent: $agent view: ". self::$view_type ." -->";
+		//echo "<!-- dfp agent: $agent view: ". self::$view_type ." -->";
 	}
 
 	//figure out the page type
