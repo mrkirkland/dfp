@@ -53,6 +53,8 @@ class DFPads
 	//figure out the page type
 	public static function set_page_type()
 	{
+		//idsabling this since DFP was acting up
+		/*
 		if(is_home())
 			$page_type = 'home'; 	//home
 		elseif (is_tax('location'))
@@ -65,7 +67,9 @@ class DFPads
 			$page_type = 'article';	//blog post article
 		else
 			$page_type = 'default';
+		*/
 
+		$page_type = 'default';
 		self::$page_type = $page_type;
 	}
 
