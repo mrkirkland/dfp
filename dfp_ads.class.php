@@ -39,6 +39,15 @@ class DFPads
 		echo "<!-- dfp test view type: ". self::$view_type ." page type: ". self::$page_type ." view folder: ". self::$view_folder ." -->";
 	}
 
+	//return view type
+	public static function get_view_type()
+	{
+		if(empty(self::$view_type))
+			self::set_view_type();
+
+		return self::$view_type;
+	}
+
 	//mobile or not
 	public static function set_view_type()
 	{
@@ -85,6 +94,13 @@ class DFPads
 	public static function bottom_banner()
 	{
 		self::$view = 'bottom_banner';
+		self::_show_generic_view();
+	}
+
+	//load the desktop/mobile view for the page type of leaderboard
+	public static function inline()
+	{
+		self::$view = 'inline';
 		self::_show_generic_view();
 	}
 

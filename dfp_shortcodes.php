@@ -23,6 +23,14 @@ function dfp_leaderboard_func( $atts ){
 }
 add_shortcode( 'dfp_leaderboard', 'dfp_leaderboard_func' );
 
+function dfp_inline_func( $atts ){
+	if (class_exists('dfpads')){
+		dfpads::inline();
+	}
+}
+add_shortcode( 'dfp_inline', 'dfp_inline_func' );
+
+
 
 function dfp_bottom_banner_func( $atts ){
 	if (class_exists('dfpads')){
