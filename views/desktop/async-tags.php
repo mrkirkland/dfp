@@ -15,10 +15,12 @@ node.parentNode.insertBefore(gads, node);
 
 <script type='text/javascript'>
 googletag.cmd.push(function() {
-googletag.defineSlot('/189143830/TC_v2_default_inline_300x250', [300, 250], 'div-gpt-ad-1414999932183-0').addService(googletag.pubads());
-googletag.defineSlot('/189143830/TC_v2_default_leaderboard_728x90', [[728, 90], [970, 90]], 'div-gpt-ad-1414999932183-1').addService(googletag.pubads());
-googletag.defineSlot('/189143830/TC_v2_default_sidebar1_300x250', [300, 250], 'div-gpt-ad-1414999932183-2').addService(googletag.pubads());
-googletag.defineSlot('/189143830/TC_v2_default_sidebar2_300x250', [300, 600], 'div-gpt-ad-1414999932183-3').addService(googletag.pubads());
+googletag.defineSlot('/189143830/TC_v2_default_inline_300x250', [300, 250], 'div-gpt-ad-1417062622143-0').addService(googletag.pubads());
+googletag.defineSlot('/189143830/TC_v2_default_leaderboard_728x90', [[728, 90], [970, 90]], 'div-gpt-ad-1417062622143-1').addService(googletag.pubads());
+googletag.defineSlot('/189143830/TC_v2_default_sidebar1_300x250', [300, 250], 'div-gpt-ad-1417062622143-2').addService(googletag.pubads());
+googletag.defineSlot('/189143830/TC_v2_default_sidebar2_300x250', [300, 250], 'div-gpt-ad-1417062622143-3').addService(googletag.pubads());
+googletag.defineSlot('/189143830/TC_v2_lower_leaderboard_970x90', [[728, 90], [970, 90]], 'div-gpt-ad-1419584651771-0').addService(googletag.pubads());
+googletag.defineSlot('/189143830/TC_v2_middle_leaderboard_970x90', [[728, 90], [970, 90]], 'div-gpt-ad-1419584651771-1').addService(googletag.pubads());
 googletag.pubads().enableSingleRequest();
 googletag.enableServices();
 });
