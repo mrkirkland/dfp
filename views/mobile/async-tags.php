@@ -17,6 +17,7 @@ node.parentNode.insertBefore(gads, node);
 googletag.cmd.push(function() {
 googletag.defineSlot('/189143830/TC_v2_default_bottom_banner_mobile_320x50', [320, 50], 'div-gpt-ad-1395308803223-0').addService(googletag.pubads());
 googletag.defineSlot('/189143830/TC_v2_default_leaderboard_mobile_320x50', [320, 50], 'div-gpt-ad-1395308803223-1').addService(googletag.pubads());
+googletag.defineSlot('/189143830/TC_v2_default_lower_leaderboard_mobile_320x50', [320, 50], 'div-gpt-ad-1421127910071-0').addService(googletag.pubads());
 googletag.pubads().enableSingleRequest();
 googletag.enableServices();
 });
